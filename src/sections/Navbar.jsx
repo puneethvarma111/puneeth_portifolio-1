@@ -31,7 +31,7 @@ function Navigation() {
       <li className="nav-li">
         <a
           className="nav-link"
-          href="/puneeth_portifolio/Puneeth Frontend Developer Resume.pdf"
+          href={`${import.meta.env.BASE_URL}Puneeth Frontend Developer Resume.pdf`}
           target="_blank"
           rel="noreferrer"
         >
